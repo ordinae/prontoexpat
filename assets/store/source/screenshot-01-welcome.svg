@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1920" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3f8ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="120" fill="#ffffff"/>
+  <text x="540" y="78" text-anchor="middle" fill="#1b1c1c" font-family="DM Sans, system-ui, sans-serif" font-size="36" font-weight="700">ProntoExpat</text>
+  <rect x="120" y="200" width="840" height="520" rx="32" fill="#d6e3ff" fill-opacity="0.5"/>
+  <circle cx="540" cy="420" r="100" fill="#005eb8" fill-opacity="0.15"/>
+  <path d="M540 360l28 56 62 8-44 40 12 62-58-32-58 32 12-62-44-40 62-8 28-56z" fill="#00478d"/>
+  <text x="540" y="620" text-anchor="middle" fill="#0b1326" font-family="DM Sans, system-ui, sans-serif" font-size="44" font-weight="700" letter-spacing="-1">Navigate life in Italy,</text>
+  <text x="540" y="680" text-anchor="middle" fill="#0b1326" font-family="DM Sans, system-ui, sans-serif" font-size="44" font-weight="700" letter-spacing="-1">one step at a time.</text>
+  <text x="140" y="780" fill="#424752" font-family="DM Sans, system-ui, sans-serif" font-size="28" font-weight="400">Italian bureaucracy and daily life can feel overwhelming. ProntoExpat helps you see what to do next.</text>
+  <rect x="140" y="920" width="800" height="88" rx="12" fill="#005eb8"/>
+  <text x="540" y="976" text-anchor="middle" fill="#ffffff" font-family="DM Sans, system-ui, sans-serif" font-size="32" font-weight="600">Get started</text>
+  <text x="540" y="1100" text-anchor="middle" fill="#424752" font-family="DM Sans, system-ui, sans-serif" font-size="22">Independent guidance - not legal advice</text>
+</svg>

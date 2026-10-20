@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" fill="none">
+  <rect width="1080" height="1920" fill="#ffffff"/>
+  <text x="80" y="100" fill="#0b1326" font-family="DM Sans, system-ui, sans-serif" font-size="40" font-weight="700">Resources</text>
+  <text x="80" y="160" fill="#424752" font-family="DM Sans, system-ui, sans-serif" font-size="26">Guides and articles for life in Italy.</text>
+  <rect x="80" y="220" width="420" height="280" rx="16" fill="#f3f8ff" stroke="#c2c6d4"/>
+  <rect x="120" y="260" width="100" height="32" rx="6" fill="#d6e3ff"/>
+  <text x="170" y="284" text-anchor="middle" fill="#00478d" font-family="DM Sans, system-ui, sans-serif" font-size="18" font-weight="600">Guide</text>
+  <text x="120" y="340" fill="#0b1326" font-family="DM Sans, system-ui, sans-serif" font-size="26" font-weight="700">Healthcare in Italy</text>
+  <text x="120" y="400" fill="#424752" font-family="DM Sans, system-ui, sans-serif" font-size="22">SSN, tessera sanitaria, and finding a doctor.</text>
+  <rect x="580" y="220" width="420" height="280" rx="16" fill="#f3f8ff" stroke="#c2c6d4"/>
+  <rect x="620" y="260" width="100" height="32" rx="6" fill="#d6e3ff"/>
+  <text x="670" y="284" text-anchor="middle" fill="#00478d" font-family="DM Sans, system-ui, sans-serif" font-size="18" font-weight="600">Guide</text>
+  <text x="620" y="340" fill="#0b1326" font-family="DM Sans, system-ui, sans-serif" font-size="26" font-weight="700">Housing contracts</text>
+  <text x="620" y="400" fill="#424752" font-family="DM Sans, system-ui, sans-serif" font-size="22">Registration, deposits, and tenant rights basics.</text>
+  <rect x="80" y="540" width="920" height="200" rx="16" fill="#eef4fc"/>
+  <rect x="120" y="580" width="120" height="32" rx="6" fill="#ffffff"/>
+  <text x="180" y="604" text-anchor="middle" fill="#005eb8" font-family="DM Sans, system-ui, sans-serif" font-size="18" font-weight="600">Article</text>
+  <text x="120" y="660" fill="#0b1326" font-family="DM Sans, system-ui, sans-serif" font-size="28" font-weight="700">What to expect at the questura</text>
+  <text x="120" y="710" fill="#424752" font-family="DM Sans, system-ui, sans-serif" font-size="22">Practical tips from trusted sources, not legal advice.</text>
+  <text x="540" y="900" text-anchor="middle" fill="#424752" font-family="DM Sans, system-ui, sans-serif" font-size="20">Links to official sources where available</text>
+</svg>

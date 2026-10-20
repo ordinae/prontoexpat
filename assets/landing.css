@@ -1,0 +1,204 @@
+/* Promotional landing — wider layout, reuses Civic Blueprint tokens from style.css */
+
+body.is-landing {
+  background: var(--pe-background);
+}
+
+.landing {
+  max-width: var(--site-max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+}
+
+.landing-hero {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 0 2.5rem;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .landing-hero {
+    grid-template-columns: 1fr 1.1fr;
+    padding: 3rem 0 3.5rem;
+  }
+}
+
+.landing-hero__copy h1 {
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: var(--pe-hero-dark);
+  margin: 0 0 1rem;
+}
+
+.landing-hero__copy .lead {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--pe-on-surface-variant);
+  margin: 0 0 1.5rem;
+  max-width: 36rem;
+}
+
+.landing-hero__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.landing-hero__visual img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--pe-outline-variant);
+}
+
+.landing-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-md);
+  background: var(--pe-primary-container);
+  color: var(--pe-on-primary);
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.landing-cta:hover {
+  background: var(--pe-primary);
+  color: var(--pe-on-primary);
+  transform: translateY(-1px);
+}
+
+.landing-cta.is-muted {
+  background: var(--pe-surface-high);
+  color: var(--pe-primary);
+  border: 1px solid var(--pe-outline-variant);
+}
+
+.landing-cta.is-muted:hover {
+  background: var(--pe-primary-fixed);
+}
+
+.landing-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.landing-pill {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: var(--pe-primary-fixed);
+  color: var(--pe-primary);
+}
+
+.landing-section {
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--pe-outline-variant);
+}
+
+.landing-section h2 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--pe-hero-dark);
+  margin: 0 0 0.5rem;
+  text-align: center;
+}
+
+.landing-section .section-lead {
+  text-align: center;
+  color: var(--pe-on-surface-variant);
+  font-size: 16px;
+  max-width: 40rem;
+  margin: 0 auto 2rem;
+}
+
+.landing-features {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  .landing-features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.landing-feature {
+  padding: 1.25rem 1.35rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--pe-outline-variant);
+  background: var(--pe-surface-low);
+}
+
+.landing-feature h3 {
+  margin: 0 0 0.5rem;
+  font-size: 18px;
+  color: var(--pe-primary);
+}
+
+.landing-feature p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--pe-on-surface-variant);
+}
+
+.landing-screenshots {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .landing-screenshots {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.landing-screenshots figure {
+  margin: 0;
+}
+
+.landing-screenshots img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--pe-outline-variant);
+  box-shadow: var(--shadow);
+}
+
+.landing-screenshots figcaption {
+  margin-top: 0.5rem;
+  font-size: 13px;
+  color: var(--pe-on-surface-variant);
+  text-align: center;
+}
+
+.landing-disclaimer {
+  margin-top: 2rem;
+  padding: 1rem 1.15rem;
+  border-radius: var(--radius-md);
+  background: var(--pe-surface-container);
+  border: 1px solid var(--pe-primary-fixed);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--pe-on-surface-variant);
+}
+
+.landing-legal-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 15px;
+}

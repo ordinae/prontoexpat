@@ -360,6 +360,30 @@ html[dir="rtl"] .lang-picker__list {
   color: var(--pe-on-surface-variant);
 }
 
+.legal-callout {
+  background: var(--pe-surface-container);
+  border: 1px solid var(--pe-outline-variant);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+}
+
+.legal-callout .legal-callout__cta {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  color: var(--pe-on-primary);
+  background: var(--pe-primary-container);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+}
+
+.legal-callout .legal-callout__cta:hover {
+  color: var(--pe-on-primary);
+  background: var(--pe-primary);
+}
+
 .disclaimer-strip {
   margin-top: 1.5rem;
   padding: 0.85rem 1rem;

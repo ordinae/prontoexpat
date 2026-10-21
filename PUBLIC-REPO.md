@@ -13,6 +13,20 @@ The main app repo stays **private**. This folder is published as the **root** of
 
 ## Publish from the private app repo
 
+### Automatic (recommended)
+
+On every push to **`main`** that touches locales or `landing-page/`, the workflow [`.github/workflows/publish-public-site.yml`](../.github/workflows/publish-public-site.yml) runs `npm run build:landing-page` and pushes the result to this repository’s `main` branch. That triggers **Deploy GitHub Pages** below.
+
+**One-time:** add a GitHub Actions secret on the **private** `pronto-expat` repo:
+
+| Secret | Value |
+| --- | --- |
+| `ORDINAE_PRONTOEXPAT_DEPLOY_TOKEN` | Fine-grained PAT (or classic PAT) with **Contents: Read and write** on `ordinae/prontoexpat` only |
+
+Create the token under the GitHub account or org that owns `ordinae/prontoexpat`. You can also run the workflow manually (**Actions → Publish public site → Run workflow**).
+
+### Manual
+
 ```bash
 # repo root
 npm run build:landing-page

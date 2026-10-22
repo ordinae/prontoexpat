@@ -39,9 +39,10 @@ ordinaedev@gmail.com
 |------|------|
 | `icon-512.png` | High-res icon, 512×512 |
 | `feature-graphic.png` | Feature graphic, 1024×500, no alpha |
-| `phone-screenshot-*.png` | Phone screenshots, 1080×1920 (replace with real device captures before final publish if possible) |
+| `phone-screenshot-*.png` | Real device captures (1332×2841); do not overwrite with `generate:store-assets` |
+| `placeholders/phone-screenshot-*.png` | Optional SVG mocks (1080×1920) from `--placeholder-screenshots` |
 
-Regenerate from SVG sources: `npm run generate:store-assets`
+Regenerate icons/feature graphic: `npm run generate:store-assets` (screenshots unchanged). Verify: `npm run test:device-screenshots`.
 
 ## Category suggestions
 

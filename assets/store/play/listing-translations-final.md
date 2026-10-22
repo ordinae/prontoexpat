@@ -17,7 +17,7 @@ Single file for Play Console. Default **en-US** is the first locale block below;
 | `feature-graphic-photo.png` | Optional: Italian photo on the right under blue wash |
 | `phone-screenshot-*.png` | Phone screenshots (device captures; upscale for Play if needed) |
 
-Regenerate SVG-based assets: `npm run generate:store-assets` (does not overwrite real device screenshots unless you re-run after replacing sources).
+Regenerate SVG-based assets: `npm run generate:store-assets` (never touches `phone-screenshot-*.png`). SVG mocks only in `placeholders/` via `npm run generate:store-assets -- --placeholder-screenshots`. Guard: `npm run test:device-screenshots`.
 
 ## Category suggestions
 

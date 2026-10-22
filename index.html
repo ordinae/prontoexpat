@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="ProntoExpat helps expats in Italy with triage, tailored task checklists, and trusted guides." />
-  <meta property="og:title" content="ProntoExpat — Navigate life in Italy" />
-  <meta property="og:description" content="ProntoExpat helps expats in Italy with triage, tailored task checklists, and trusted guides." />
+  <meta name="description" content="ProntoExpat helps expats in Italy with triage, tailored task checklists and trusted guides." />
+  <meta property="og:title" content="ProntoExpat | Navigate life in Italy" />
+  <meta property="og:description" content="ProntoExpat helps expats in Italy with triage, tailored task checklists and trusted guides." />
   <meta property="og:image" content="assets/store/play/feature-graphic-photo.png" />
   <title>ProntoExpat | Navigate life in Italy, one step at a time.</title>
   <link rel="stylesheet" href="assets/style.css" />
@@ -33,39 +33,24 @@
   <main class="landing">
 
     <section class="landing-hero" aria-labelledby="landing-title">
-      <div class="landing-hero__copy">
-        <div class="landing-pill-row">
-          <span class="landing-pill">For expats in Italy</span>
-          <span class="landing-pill">Free to start</span>
-        </div>
-        <h1 id="landing-title">Navigate life in Italy, one step at a time.</h1>
-        <p class="lead">Italian bureaucracy and daily life can feel overwhelming. ProntoExpat is your companion to get a clearer sense of what to do next.</p>
-        <div class="landing-hero__badges">
-          <a class="landing-cta" href="https://play.google.com/store/apps/details?id=com.prontoexpat.app" rel="noopener noreferrer">Get it on Google Play</a>
-          <a class="landing-cta is-muted" href="privacy.html">Legal and privacy</a>
-        </div>
+      <div class="landing-hero__backdrop" aria-hidden="true">
+        <img class="landing-hero__image" src="assets/store/play/feature-graphic-photo-bg.png" width="1024" height="500" alt="" loading="eager" decoding="async" />
+        <div class="landing-hero__scrim"></div>
       </div>
-      <div class="landing-hero__visual">
-        <img src="assets/store/play/feature-graphic-photo.png" width="1024" height="500" alt="ProntoExpat" loading="eager" />
-      </div>
-    </section>
-
-    <section class="landing-section" aria-labelledby="features-title">
-      <h2 id="features-title">Built for Italian bureaucracy</h2>
-      <p class="section-lead">A clearer path through visas, documents, housing, and everyday admin, without pretending to be your lawyer.</p>
-      <div class="landing-features">
-        <article class="landing-feature">
-          <h3>Triage and checklist</h3>
-          <p>Use our free triage tool to organize your situation and instantly generate a tailored step-by-step checklist with information on visas, documents, housing and more.</p>
-        </article>
-        <article class="landing-feature">
-          <h3>Tasks tab: bureaucracy, organized.</h3>
-          <p>After answering a few questions, you get a tailored task checklist to track your progress and check milestones off as you complete them.</p>
-        </article>
-        <article class="landing-feature">
-          <h3>Resources tab: guides and articles</h3>
-          <p>Guides with links to trusted sources and editorial articles on life in Italy.</p>
-        </article>
+      <div class="landing-hero__content">
+        <div class="landing-hero__inner">
+          <div class="landing-pill-row">
+            <span class="landing-pill">For expats in Italy</span>
+            <span class="landing-pill">Free to start</span>
+          </div>
+          <h1 id="landing-title">Navigate life in Italy, one step at a time.</h1>
+          <p class="lead">Italian bureaucracy and daily life can feel overwhelming. ProntoExpat is your companion to get a clearer sense of what to do next.</p>
+          <div class="landing-hero__actions">
+            <a class="landing-play-badge" href="https://play.google.com/store/apps/details?id=com.prontoexpat.app" rel="noopener noreferrer" aria-label="Get it on Google Play">
+            <img src="assets/google-play/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="646" height="250" decoding="async" />
+          </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -90,13 +75,33 @@
           <figcaption>Profile</figcaption>
         </figure>
       </div>
+    </section>
+
+    <section class="landing-section" aria-labelledby="features-title">
+      <h2 id="features-title">Built for Italian bureaucracy</h2>
+      <p class="section-lead">A clearer path through visas, documents, housing and everyday admin, without pretending to be your lawyer.</p>
+      <div class="landing-features">
+        <article class="landing-feature">
+          <h3>Triage and checklist</h3>
+          <p>Use our free triage tool to organize your situation and instantly generate a tailored step-by-step checklist with information on visas, documents, housing and more.</p>
+        </article>
+        <article class="landing-feature">
+          <h3>Tasks tab: bureaucracy, organized.</h3>
+          <p>After answering a few questions, you get a tailored task checklist to track your progress and check milestones off as you complete them.</p>
+        </article>
+        <article class="landing-feature">
+          <h3>Resources tab: guides and articles</h3>
+          <p>Guides with links to trusted sources and editorial articles on life in Italy.</p>
+        </article>
+      </div>
       <p class="landing-disclaimer"><strong>Disclaimer:</strong> ProntoExpat provides general information and organizational tools only. It is not legal or immigration advice and is not affiliated with any Italian government body. Requirements change; always confirm with official sources or qualified professionals.</p>
-      <p class="landing-legal-link"><a href="privacy.html">Privacy, terms, and account deletion</a></p>
+      <p class="landing-legal-link"><a href="privacy.html">Privacy, terms and account deletion</a></p>
     </section>
 
   </main>
   <footer class="site-footer">
-    <p><strong>ProntoExpat</strong> — independent guidance for expats in Italy. General information only; not legal advice. Not affiliated with any Italian government body.</p>
+    <p class="landing-play-attribution">Google Play and the Google Play logo are trademarks of Google LLC.</p>
+    <p><strong>ProntoExpat</strong>. Independent guidance for expats in Italy. General information only; not legal advice. Not affiliated with any Italian government body.</p>
     <p>Contact: <a href="mailto:ordinaedev@gmail.com">ordinaedev@gmail.com</a></p>
   </footer>
   <script src="assets/site-lang.js"></script>

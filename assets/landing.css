@@ -102,6 +102,8 @@ body.is-landing {
 .landing-hero .landing-play-badge {
   display: block;
   margin: 0;
+  width: fit-content;
+  max-width: 100%;
 }
 
 .landing-play-badge:hover {
@@ -120,9 +122,13 @@ body.is-landing {
   max-width: min(100%, 26rem);
 }
 
-/* Badge PNG includes Google clear-space; shift art flush with hero copy */
+/* Badge PNG clear-space; shift art flush with hero copy (mirrored in RTL) */
 .landing-hero .landing-play-badge img {
   transform: translateX(calc(-100% * 41 / 646));
+}
+
+html[dir="rtl"] .landing-hero .landing-play-badge img {
+  transform: translateX(calc(100% * 41 / 646));
 }
 
 .landing-hero .landing-pill-row {

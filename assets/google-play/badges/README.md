@@ -5,7 +5,7 @@ Official **Get it on Google Play** badge PNGs from Google’s badge CDN (Partner
 - Do not recolor, crop, or alter these files.
 - Minimum on-screen height: 28px (we use ~48px in CSS).
 - Localized filenames match Google’s locale codes (`en`, `it`, `zh-cn`, etc.).
-- Ukrainian (`uk`) pages use the English badge (no official `uk` asset).
+- The landing page hero always uses `en_badge_web_generic.png` so size and alignment stay consistent; `alt` / `aria-label` remain translated.
 
 To refresh assets from Google (if badges are updated):
 

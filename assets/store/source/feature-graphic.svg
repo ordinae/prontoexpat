@@ -5,24 +5,10 @@
       <stop offset="0.45" stop-color="#00478d"/>
       <stop offset="1" stop-color="#005eb8"/>
     </linearGradient>
-    <linearGradient id="glow" x1="720" y1="80" x2="980" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d6e3ff" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#d6e3ff" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="24"/>
-    </filter>
   </defs>
   <rect width="1024" height="500" fill="url(#bg)"/>
-  <ellipse cx="820" cy="260" rx="220" ry="180" fill="url(#glow)" filter="url(#soft)"/>
-  <circle cx="180" cy="120" r="90" fill="#d6e3ff" fill-opacity="0.08"/>
-  <circle cx="920" cy="90" r="56" fill="#ffffff" fill-opacity="0.06"/>
-  <path d="M640 340c48-72 88-108 140-128 28-12 58-18 88-18v36c-22 2-44 8-64 18-38 18-70 48-108 108h-56z" fill="#d6e3ff" fill-opacity="0.25"/>
-  <path d="M700 120l24 52 56 8-40 36 10 56-50-28-50 28 10-56-40-36 56-8 24-52z" fill="#ffffff" fill-opacity="0.92"/>
   <text x="72" y="200" fill="#ffffff" font-family="DM Sans, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">ProntoExpat</text>
   <text x="72" y="252" fill="#d6e3ff" font-family="DM Sans, system-ui, sans-serif" font-size="28" font-weight="500" letter-spacing="-0.5">Navigate life in Italy,</text>
   <text x="72" y="288" fill="#d6e3ff" font-family="DM Sans, system-ui, sans-serif" font-size="28" font-weight="500" letter-spacing="-0.5">one step at a time.</text>
-  <text x="72" y="360" fill="#ffffff" fill-opacity="0.75" font-family="DM Sans, system-ui, sans-serif" font-size="18" font-weight="500">Tasks, resources, and triage for expats</text>
-  <rect x="72" y="388" width="340" height="44" rx="8" fill="#ffffff" fill-opacity="0.12" stroke="#d6e3ff" stroke-opacity="0.4"/>
-  <text x="92" y="416" fill="#ffffff" font-family="DM Sans, system-ui, sans-serif" font-size="15" font-weight="600">General guidance - not legal advice</text>
+  <text x="72" y="360" fill="#ffffff" fill-opacity="0.75" font-family="DM Sans, system-ui, sans-serif" font-size="18" font-weight="500">Personalised path with tasks, resources and reminders</text>
 </svg>

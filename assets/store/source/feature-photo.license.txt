@@ -1,0 +1,4 @@
+feature-photo.jpg — Unsplash (free licence)
+Photo: Colosseum, Rome (Unsplash CDN)
+https://unsplash.com/photos/rome-colosseum
+Replace this file with your own licensed image if you prefer; keep the filename or update feature-graphic-photo.svg.

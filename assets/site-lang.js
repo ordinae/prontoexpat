@@ -7,12 +7,21 @@
     privacy: "privacy.html",
     terms: "terms.html",
     deletion: "account-deletion.html",
+    dataRequest: "data-deletion-request.html",
   };
 
-  function urlFor(lang, pageKey) {
+  // Same relative rules as scripts/build-landing-page.mjs hrefFor()
+  function urlFor(targetLang, pageKey) {
     const file = PAGE_FILES[pageKey];
     if (!file) return null;
-    return lang === "en" ? file : `${lang}/${file}`;
+    const currentLang = document.documentElement.lang || "en";
+    if (targetLang === "en") {
+      return currentLang === "en" ? file : `../${file}`;
+    }
+    const targetPath = `${targetLang}/${file}`;
+    if (currentLang === "en") return targetPath;
+    if (currentLang === targetLang) return file;
+    return `../${targetPath}`;
   }
 
   const pageKey = document.body.dataset.pePage;

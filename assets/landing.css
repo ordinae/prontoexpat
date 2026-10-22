@@ -171,12 +171,14 @@ body.is-landing {
   margin: 0;
 }
 
+/* Device PNGs already have rounded frames + alpha; avoid extra radius (white wedges). */
 .landing-screenshots img {
+  display: block;
   width: 100%;
   height: auto;
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--pe-outline-variant);
-  box-shadow: var(--shadow);
+  border-radius: 0;
+  box-shadow: none;
+  filter: drop-shadow(0 8px 20px rgba(11, 19, 38, 0.1));
 }
 
 .landing-screenshots figcaption {

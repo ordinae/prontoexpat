@@ -41,12 +41,12 @@ body.is-landing {
 .landing-hero__scrim {
   position: absolute;
   inset: 0;
+  /* Darker behind centered hero copy */
   background: linear-gradient(
-    105deg,
-    rgba(8, 18, 38, 0.92) 0%,
-    rgba(8, 18, 38, 0.78) 38%,
-    rgba(8, 18, 38, 0.35) 62%,
-    rgba(8, 18, 38, 0.12) 100%
+    180deg,
+    rgba(8, 18, 38, 0.42) 0%,
+    rgba(8, 18, 38, 0.78) 48%,
+    rgba(8, 18, 38, 0.9) 100%
   );
 }
 
@@ -55,15 +55,37 @@ body.is-landing {
   z-index: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: var(--site-max-width);
   margin: 0 auto;
   box-sizing: border-box;
   padding: clamp(2rem, 4.5vw, 3.25rem) 1.25rem;
+  text-align: center;
+}
+
+/* Hero copy + device mock (phone column desktop only) */
+.landing-hero__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
 }
 
 .landing-hero__inner {
-  width: min(100%, 36rem);
+  width: min(100%, 40rem);
+  margin: 0 auto;
+}
+
+.landing-hero__phone {
+  display: none;
+  line-height: 0;
+}
+
+.landing-hero__phone img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 14px 36px rgba(0, 0, 0, 0.38));
 }
 
 .landing-hero__inner h1 {
@@ -80,7 +102,7 @@ body.is-landing {
   font-size: clamp(1rem, 2.2vw, 1.125rem);
   line-height: 1.55;
   color: rgba(255, 255, 255, 0.9);
-  margin: 0 0 1.75rem;
+  margin: 0 auto 1.75rem;
   max-width: 34rem;
 }
 
@@ -88,7 +110,8 @@ body.is-landing {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Official Google Play badge (unmodified asset; min height per Google guidelines) */
@@ -101,7 +124,7 @@ body.is-landing {
 
 .landing-hero .landing-play-badge {
   display: block;
-  margin: 0;
+  margin: 0 auto;
   width: fit-content;
   max-width: 100%;
 }
@@ -122,20 +145,12 @@ body.is-landing {
   max-width: min(100%, 26rem);
 }
 
-/* Badge PNG clear-space; shift art flush with hero copy (mirrored in RTL) */
-.landing-hero .landing-play-badge img {
-  transform: translateX(calc(-100% * 41 / 646));
-}
-
-html[dir="rtl"] .landing-hero .landing-play-badge img {
-  transform: translateX(calc(100% * 41 / 646));
-}
-
 .landing-hero .landing-pill-row {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.25rem;
+  justify-content: center;
 }
 
 .landing-hero .landing-pill {
@@ -192,22 +207,82 @@ html[dir="rtl"] .landing-hero .landing-play-badge img {
   .landing-hero__scrim {
     background: linear-gradient(
       90deg,
-      rgba(8, 18, 38, 0.9) 0%,
-      rgba(8, 18, 38, 0.72) 34%,
-      rgba(8, 18, 38, 0.2) 58%,
-      rgba(8, 18, 38, 0.05) 100%
+      rgba(8, 18, 38, 0.92) 0%,
+      rgba(8, 18, 38, 0.78) 42%,
+      rgba(8, 18, 38, 0.35) 68%,
+      rgba(8, 18, 38, 0.12) 100%
     );
+  }
+
+  .landing-hero__content {
+    align-self: stretch;
+    align-items: stretch;
+    min-height: clamp(24rem, 72vh, 36rem);
+    padding-top: clamp(2rem, 4vw, 2.75rem);
+    padding-bottom: 0;
+    text-align: start;
+  }
+
+  .landing-hero__layout {
+    grid-template-columns: minmax(0, 1fr) minmax(10.5rem, 15rem);
+    align-items: center;
+    gap: clamp(1rem, 2.5vw, 2rem);
+    flex: 1;
+    min-height: 100%;
+  }
+
+  .landing-hero__inner {
+    max-width: none;
+    margin: 0;
+    align-self: center;
+  }
+
+  .landing-hero__inner .lead {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .landing-hero .landing-pill-row,
+  .landing-hero__actions {
+    justify-content: flex-start;
+  }
+
+  .landing-hero .landing-play-badge {
+    margin: 0;
+  }
+
+  .landing-hero__phone {
+    display: block;
+    align-self: end;
+    width: 100%;
+    max-width: 15rem;
+    transform: translateY(24%);
   }
 }
 
 html[dir="rtl"] .landing-hero__scrim {
   background: linear-gradient(
-    -105deg,
-    rgba(8, 18, 38, 0.92) 0%,
-    rgba(8, 18, 38, 0.78) 38%,
-    rgba(8, 18, 38, 0.35) 62%,
-    rgba(8, 18, 38, 0.12) 100%
+    180deg,
+    rgba(8, 18, 38, 0.42) 0%,
+    rgba(8, 18, 38, 0.78) 48%,
+    rgba(8, 18, 38, 0.9) 100%
   );
+}
+
+@media (min-width: 900px) {
+  html[dir="rtl"] .landing-hero__scrim {
+    background: linear-gradient(
+      -90deg,
+      rgba(8, 18, 38, 0.92) 0%,
+      rgba(8, 18, 38, 0.78) 42%,
+      rgba(8, 18, 38, 0.35) 68%,
+      rgba(8, 18, 38, 0.12) 100%
+    );
+  }
+
+  html[dir="rtl"] .landing-hero__layout {
+    grid-template-columns: minmax(10.5rem, 15rem) minmax(0, 1fr);
+  }
 }
 
 .landing-section {

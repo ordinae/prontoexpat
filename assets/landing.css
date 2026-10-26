@@ -342,6 +342,17 @@ html[dir="rtl"] .landing-hero__scrim {
   color: var(--pe-on-surface-variant);
 }
 
+/* Play badge below feature cards */
+.landing-section-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+.landing-section-cta .landing-play-badge {
+  margin: 0;
+}
+
 .landing-screenshots {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

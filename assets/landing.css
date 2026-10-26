@@ -219,12 +219,12 @@ body.is-landing {
     align-items: stretch;
     min-height: clamp(24rem, 72vh, 36rem);
     padding-top: clamp(2rem, 4vw, 2.75rem);
-    padding-bottom: 0;
+    padding-bottom: clamp(2rem, 4vw, 2.75rem);
     text-align: start;
   }
 
   .landing-hero__layout {
-    grid-template-columns: minmax(0, 1fr) minmax(10.5rem, 15rem);
+    grid-template-columns: minmax(0, 1fr) minmax(12rem, 17.5rem);
     align-items: center;
     gap: clamp(1rem, 2.5vw, 2rem);
     flex: 1;
@@ -252,11 +252,21 @@ body.is-landing {
   }
 
   .landing-hero__phone {
-    display: block;
-    align-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
     width: 100%;
-    max-width: 15rem;
-    transform: translateY(24%);
+    max-width: 17.5rem;
+    height: 100%;
+  }
+
+  .landing-hero__phone img {
+    width: auto;
+    max-width: 100%;
+    max-height: min(64vh, 32rem);
+    height: auto;
+    margin: 0 auto;
   }
 }
 
@@ -281,7 +291,7 @@ html[dir="rtl"] .landing-hero__scrim {
   }
 
   html[dir="rtl"] .landing-hero__layout {
-    grid-template-columns: minmax(10.5rem, 15rem) minmax(0, 1fr);
+    grid-template-columns: minmax(12rem, 17.5rem) minmax(0, 1fr);
   }
 }
 

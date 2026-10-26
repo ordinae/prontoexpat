@@ -11,13 +11,13 @@ Single file for Play Console. Default **en-US** is the first locale block below;
 
 | File | Spec |
 |------|------|
-| `icon-512.png` | High-res icon for Play, 512×512 (from `ios-light.png`, white) |
-| `icon-512-adaptive.png` | Same size, from `adaptive-icon.png` (Android foreground; dark) |
+| `icon-512.png` | High-res icon for Play, 512×512 (from `landing-page/assets/legacy/ios-light.png`, white; not the zoomed launcher) |
+| `icon-512-adaptive.png` | Same size, from legacy `adaptive-icon.png` (reference only; upload `icon-512.png` to Play) |
 | `feature-graphic.png` | Feature graphic, 1024×500, gradient only (default) |
 | `feature-graphic-photo.png` | Optional: Italian photo on the right under blue wash |
 | `phone-screenshot-*.png` | Phone screenshots (device captures; upscale for Play if needed) |
 
-Regenerate SVG-based assets: `npm run generate:store-assets` (never touches `phone-screenshot-*.png`). SVG mocks only in `placeholders/` via `npm run generate:store-assets -- --placeholder-screenshots`. Guard: `npm run test:device-screenshots`.
+Regenerate launcher PNGs: `npm run generate:app-icons`. Then SVG-based Play assets: `npm run generate:store-assets` (never touches `phone-screenshot-*.png`). SVG mocks only in `placeholders/` via `npm run generate:store-assets -- --placeholder-screenshots`. Guard: `npm run test:device-screenshots`.
 
 ## Category suggestions
 
@@ -34,7 +34,7 @@ Tags: Productivity, Tools, Travel and local, Lifestyle
 
 **Full description:**
 
-Moving to Italy or already living here? ProntoExpat guides you through visas, documents, housing, healthcare and everyday admin with a clear, personalized path. Free to use. No ads.
+Moving to Italy or already living here? Italian bureaucracy and daily life can feel overwhelming. ProntoExpat replaces hours of unreliable searching with fast, source-cited answers and a clear, personalized path through visas, documents, housing, healthcare and everyday admin. Free to use. No ads.
 
 What you get
 
@@ -70,7 +70,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-Ti stai trasferendo in Italia o ci vivi già? ProntoExpat ti accompagna con un percorso chiaro e personalizzato tra visti, documenti, casa, sanità e burocrazia di tutti i giorni. Gratuito. Senza pubblicità.
+Ti stai trasferendo in Italia o ci vivi già? La burocrazia e la vita quotidiana possono essere schiaccianti. ProntoExpat sostituisce ore di ricerche poco affidabili con risposte rapide basate su fonti verificate e un percorso chiaro e personalizzato tra visti, documenti, casa, sanità e pratiche di ogni giorno. Gratuito. Senza pubblicità.
 
 Cosa trovi
 
@@ -106,7 +106,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-¿Te mudas a Italia o ya vives allí? ProntoExpat te guía con una ruta clara y personalizada por visados, documentos, vivienda, sanidad y trámites del día a día. Gratis. Sin anuncios.
+¿Te mudas a Italia o ya vives allí? La burocracia y la vida cotidiana pueden resultar abrumadoras. ProntoExpat sustituye horas de búsquedas poco fiables por respuestas rápidas con fuentes citadas y una ruta clara y personalizada por visados, documentos, vivienda, sanidad y trámites del día a día. Gratis. Sin anuncios.
 
 Qué incluye
 
@@ -142,7 +142,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-Vous vous installez en Italie ou y vivez déjà ? ProntoExpat vous guide avec un parcours clair et personnalisé à travers les visas, les documents, le logement, la santé et les démarches du quotidien. Gratuit. Sans publicité.
+Vous vous installez en Italie ou y vivez déjà ? La bureaucratie et la vie quotidienne peuvent sembler écrasantes. ProntoExpat remplace des heures de recherches peu fiables par des réponses rapides étayées par des sources et un parcours clair et personnalisé à travers les visas, les documents, le logement, la santé et les démarches du quotidien. Gratuit. Sans publicité.
 
 Ce que vous obtenez
 
@@ -178,7 +178,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-Planen Sie einen Umzug nach Italien oder leben Sie schon dort? ProntoExpat begleitet Sie auf einem klaren, persönlichen Weg durch Visa, Dokumente, Wohnen, Gesundheit und Alltagsbürokratie. Kostenlos. Keine Werbung.
+Planen Sie einen Umzug nach Italien oder leben Sie schon dort? Bürokratie und Alltag können überwältigend sein. ProntoExpat ersetzt stundenlanges, unzuverlässiges Suchen durch schnelle Antworten mit Quellenangaben und einen klaren, personalisierten Weg durch Visa, Dokumente, Wohnen, Gesundheit und Alltagsbürokratie. Kostenlos. Keine Werbung.
 
 Das bietet die App
 
@@ -214,7 +214,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-Vai se mudar para a Itália ou já mora lá? O ProntoExpat ajuda você com um caminho claro e personalizado por vistos, documentos, moradia, saúde e a burocracia do dia a dia. Grátis. Sem anúncios.
+Vai se mudar para a Itália ou já mora lá? A burocracia e o dia a dia podem parecer esmagadores. O ProntoExpat substitui horas de pesquisas pouco confiáveis por respostas rápidas com fontes citadas e um caminho claro e personalizado por vistos, documentos, moradia, saúde e a burocracia do dia a dia. Grátis. Sem anúncios.
 
 O que você encontra
 
@@ -250,7 +250,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-هل تنوي الانتقال إلى إيطاليا أم تعيش فيها بالفعل؟ يرشدك ProntoExpat عبر مسار واضح ومخصص يشمل التأشيرات والوثائق والسكن والرعاية الصحية والمعاملات اليومية. مجاني. بدون إعلانات.
+هل تنوي الانتقال إلى إيطاليا أم تعيش فيها بالفعل؟ قد تبدو البيروقراطية والحياة اليومية مرهقة. يستبدل ProntoExpat ساعات البحث غير الموثوق بإجابات سريعة مستندة إلى مصادر ومسار واضح ومخصص يشمل التأشيرات والوثائق والسكن والرعاية الصحية والمعاملات اليومية. مجاني. بدون إعلانات.
 
 ماذا تحصل عليه
 
@@ -286,7 +286,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-即将前往意大利，或已在意大利生活？ProntoExpat 为你提供清晰、个性化的路径，帮你理清签证、文件、住房、医疗和日常行政事务。免费使用，无广告。
+即将前往意大利，或已在意大利生活？意大利的官僚事务和日常生活可能令人不堪重负。ProntoExpat 以快速、有据可依的回答取代长时间不可靠的搜索，并为你提供清晰、个性化的路径，涵盖签证、文件、住房、医疗和日常行政事务。免费使用，无广告。
 
 你将获得
 
@@ -322,7 +322,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-इटली जा रहे हैं या पहले से वहीं रहते हैं? ProntoExpat वीज़ा, दस्तावेज़, आवास, स्वास्थ्य और रोज़मर्रा के सरकारी कामों के लिए आपको एक स्पष्ट और व्यक्तिगत रास्ता दिखाता है। मुफ़्त। कोई विज्ञापन नहीं।
+इटली जा रहे हैं या पहले से वहीं रहते हैं? इटली की ब्यूरोक्रेसी और रोज़मर्रा की ज़िंदगी भारी पड़ सकती है। ProntoExpat घंटों की अविश्वसनीय खोज की जगह तेज़, स्रोतों के साथ जवाब और वीज़ा, दस्तावेज़, आवास, स्वास्थ्य तथा रोज़मर्रा के सरकारी कामों के लिए एक स्पष्ट, व्यक्तिगत रास्ता देता है। मुफ़्त। कोई विज्ञापन नहीं।
 
 आपको क्या मिलता है
 
@@ -358,7 +358,7 @@ ordinaedev@gmail.com
 
 **Full description:**
 
-Переїжджаєте до Італії чи вже живете там? ProntoExpat допоможе чітким персоналізованим маршрутом через візи, документи, житло, медицину та щоденну бюрократію. Безкоштовно. Без реклами.
+Переїжджаєте до Італії чи вже живете там? Італійська бюрократія та повсякденне життя можуть здаватися непосильними. ProntoExpat замінює години ненадійного пошуку швидкими відповідями з посиланнями на джерела та чітким персоналізованим маршрутом через візи, документи, житло, медицину та щоденну бюрократію. Безкоштовно. Без реклами.
 
 Що ви отримуєте
 

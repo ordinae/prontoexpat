@@ -12,7 +12,7 @@ Step-by-step guidance for expats navigating Italian bureaucracy and daily life.
 
 ## Full description
 
-Moving to Italy or already here? ProntoExpat helps you cut through the noise with a clear, personalized path through visas, documents, housing, healthcare, and everyday admin.
+Moving to Italy or already living here? Italian bureaucracy and daily life can feel overwhelming. ProntoExpat replaces hours of unreliable searching with fast, source-cited answers and a clear, personalized path through visas, documents, housing, healthcare and everyday admin. Free to use. No ads.
 
 **What you get**
 
@@ -42,7 +42,7 @@ ordinaedev@gmail.com
 | `phone-screenshot-*.png` | Real device captures (1332×2841); do not overwrite with `generate:store-assets` |
 | `placeholders/phone-screenshot-*.png` | Optional SVG mocks (1080×1920) from `--placeholder-screenshots` |
 
-Regenerate icons/feature graphic: `npm run generate:store-assets` (screenshots unchanged). Verify: `npm run test:device-screenshots`.
+Regenerate zoomed launcher PNGs: `npm run generate:app-icons` (masters in `landing-page/assets/legacy/`). Play listing icon + feature graphic: `npm run generate:store-assets` (`icon-512.png` from legacy `ios-light`, not the zoomed app icon). Verify: `npm run test:device-screenshots`.
 
 ## Category suggestions
 

@@ -10,7 +10,7 @@
     dataRequest: "data-deletion-request.html",
   };
 
-  // Same relative rules as scripts/build-landing-page.mjs hrefFor()
+  // Same relative rules as scripts/landing/build-landing-page.mjs hrefFor()
   function urlFor(targetLang, pageKey) {
     const file = PAGE_FILES[pageKey];
     if (!file) return null;

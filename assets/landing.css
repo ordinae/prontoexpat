@@ -311,16 +311,28 @@ html[dir="rtl"] .landing-hero__scrim {
   color: var(--pe-on-surface-variant);
 }
 
-.landing-legal-link {
-  text-align: center;
+.landing-closing {
   margin-top: 1.5rem;
+  text-align: center;
+}
+
+.landing-closing .landing-legal-link {
+  margin: 0;
+}
+
+.landing-legal-link {
   font-size: 15px;
 }
 
 .landing-play-attribution {
-  margin: 0 0 0.75rem;
+  margin: 1rem 0 0;
   font-size: 12px;
   line-height: 1.45;
   color: var(--pe-on-surface-variant);
-  text-align: start;
+}
+
+.landing-contact {
+  margin: 0.75rem 0 0;
+  font-size: 15px;
+  color: var(--pe-on-surface-variant);
 }

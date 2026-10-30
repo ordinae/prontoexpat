@@ -37,12 +37,11 @@ ordinaedev@gmail.com
 
 | File | Spec |
 |------|------|
-| `icon-512.png` | High-res icon, 512×512 |
-| `feature-graphic.png` | Feature graphic, 1024×500, no alpha |
-| `phone-screenshot-*.png` | Real device captures (1332×2841); do not overwrite with `generate:store-assets` |
-| `placeholders/phone-screenshot-*.png` | Optional SVG mocks (1080×1920) from `--placeholder-screenshots` |
+| `icon-512.png` | High-res icon, 512×512 — `npm run generate:store-assets` from legacy masters |
+| `feature-graphic*.png`, `store-banner.png` | Hand-maintained listing art (1024×500) |
+| `playstore_assets/*.png` | Real device captures for Play + landing gallery |
 
-Regenerate zoomed launcher PNGs: `npm run generate:app-icons` (masters in `landing-page/assets/legacy/`). Play listing icon + feature graphic: `npm run generate:store-assets` (`icon-512.png` from legacy `ios-light`, not the zoomed app icon). Verify: `npm run test:device-screenshots`.
+Regenerate launcher PNGs: `npm run generate:app-icons`. Play listing icons only: `npm run generate:store-assets`. Verify captures: `npm run test:device-screenshots`. Workflow: [`../README.md`](../README.md).
 
 ## Category suggestions
 

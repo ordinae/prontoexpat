@@ -61,7 +61,7 @@
   "deletionPartialAfterLink": ".",
   "deletionRetentionHeading": "Was passiert bei Kontolöschung",
   "deletionGoogleHeading": "Google-Anmeldung",
-  "deletionGoogleBody": "Bei Anmeldung mit Google entfernt die Löschung deines ProntoExpat-Kontos den App-Zugriff nicht automatisch in deinem Google-Konto. Du kannst den Zugriff in den Google-Kontoberechtigungen widerrufen.",
+  "deletionGoogleBody": "Bei Anmeldung mit Google entfernt die Löschung deines ProntoExpat-Kontos den App-Zugriff nicht automatisch in deinem Google-Konto. Du kannst den Zugriff in deinen",
   "deletionContactHeading": "Kontakt",
   "deletionContactBody": "Datenschutz: ordinaedev@gmail.com · +39 375 686 1669",
   "privacyDataRequestPageLink": "Seite für Datenlöschanfragen (Schritte, was wir löschen oder behalten, Aufbewahrung)",
@@ -87,5 +87,8 @@
   "dataRequestRetentionHeading": "Aufbewahrung nach einer Teillöschanfrage",
   "dataRequestRetentionBody": "• Nach Identitätsprüfung löschen oder anonymisieren wir die angeforderten Kategorien auf ProntoExpat-Servern innerhalb von 30 Tagen.\n• Absturzdiagnose in Sentry kann gemäß Sentry-Richtlinie für begrenzte Zeit auf Sentry-Servern verbleiben. Zukünftige Absturzberichte kannst du jederzeit unter Profil → Datenschutz in der App deaktivieren.\n• PostHog-Analysen unterliegen, falls aktiviert, der PostHog-Aufbewahrung; wir fordern Löschung bei PostHog an, wo möglich.\n• Vollständige Kontolöschung folgt anderen Regeln (sofortige Anonymisierung auf unseren Servern, optionaler 90-Tage-Betrugs-Tombstone, lokale App-Daten gelöscht). Siehe Seite Konto löschen.",
   "dataRequestPrivacyLinkBefore": "Vollständige Details stehen in unserer",
-  "dataRequestPrivacyLinkAfter": "(Abschnitte 2, 3, 7 und 8)."
+  "dataRequestPrivacyLinkAfter": "(Abschnitte 2, 3, 7 und 8).",
+  "landingPlayAttribution": "Google Play und das Google Play-Logo sind Marken von Google LLC.",
+  "deletionGooglePermissionsLink": "Google-Kontoberechtigungen",
+  "deletionGoogleBodyEnd": "widerrufen, wenn du möchtest."
 }

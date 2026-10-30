@@ -61,7 +61,7 @@
   "deletionPartialAfterLink": "।",
   "deletionRetentionHeading": "खाता हटाने पर क्या होता है",
   "deletionGoogleHeading": "Google साइन इन",
-  "deletionGoogleBody": "यदि आप Google से साइन इन करते हैं, तो ProntoExpat खाता हटाने से Google खाते में ऐप की पहुँच स्वतः नहीं हटती। आप Google खाता अनुमतियों में पहुँच रद्द कर सकते हैं।",
+  "deletionGoogleBody": "यदि आप Google से साइन इन करते हैं, तो ProntoExpat खाता हटाने से Google खाते में ऐप की पहुँच स्वतः नहीं हटती। आप",
   "deletionContactHeading": "संपर्क",
   "deletionContactBody": "गोपनीयता: ordinaedev@gmail.com · +39 375 686 1669",
   "privacyDataRequestPageLink": "डेटा हटाने के अनुरोध पृष्ठ (चरण, क्या हटाते या रखते हैं, रखने की अवधि)",
@@ -87,5 +87,8 @@
   "dataRequestRetentionHeading": "आंशिक हटाने के अनुरोध के बाद रखने की अवधि",
   "dataRequestRetentionBody": "• पहचान सत्यापन के बाद, हम 30 दिनों के भीतर ProntoExpat सर्वर पर अनुरोधित श्रेणियाँ हटाते या अनाम करते हैं।\n• Sentry में क्रैश निदान Sentry की नीति के तहत सीमित समय रह सकता है। ऐप में Profile → Privacy से भविष्य की क्रैश रिपोर्टिंग बंद कर सकते हैं।\n• PostHog विश्लेषण, यदि चालू था, PostHog रखने के अधीन है; जहाँ संभव PostHog से हटाने का अनुरोध करते हैं।\n• पूर्ण खाता हटाने के अलग नियम हैं (सर्वर पर तत्काल अनामीकरण, वैकल्पिक 90-दिन धोखाधड़ी tombstone, स्थानीय ऐप डेटा साफ)। खाता हटाएँ पृष्ठ देखें।",
   "dataRequestPrivacyLinkBefore": "पूर्ण विवरण हमारी",
-  "dataRequestPrivacyLinkAfter": "(धारा 2, 3, 7 और 8) में।"
+  "dataRequestPrivacyLinkAfter": "(धारा 2, 3, 7 और 8) में।",
+  "landingPlayAttribution": "Google Play और Google Play लोगो Google LLC के ट्रेडमार्क हैं।",
+  "deletionGooglePermissionsLink": "Google खाता अनुमतियों",
+  "deletionGoogleBodyEnd": "में पहुँच रद्द कर सकते हैं।"
 }

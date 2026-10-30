@@ -61,7 +61,7 @@
   "deletionPartialAfterLink": ".",
   "deletionRetentionHeading": "Cosa succede quando elimini l'account",
   "deletionGoogleHeading": "Accesso con Google",
-  "deletionGoogleBody": "Se accedi con Google, eliminare l'account ProntoExpat non rimuove l'accesso dell'app nel tuo account Google. Puoi revocare l'accesso nelle autorizzazioni dell'account Google se vuoi.",
+  "deletionGoogleBody": "Se accedi con Google, eliminare l'account ProntoExpat non rimuove l'accesso dell'app nel tuo account Google. Puoi revocare l'accesso nelle",
   "deletionContactHeading": "Contatti",
   "deletionContactBody": "Privacy: ordinaedev@gmail.com · +39 375 686 1669",
   "privacyDataRequestPageLink": "Pagina richieste di cancellazione dati (passaggi, cosa eliminiamo o conserviamo, conservazione)",
@@ -87,5 +87,8 @@
   "dataRequestRetentionHeading": "Conservazione dopo una richiesta di cancellazione parziale",
   "dataRequestRetentionBody": "• Dopo la verifica dell'identità, eliminiamo o anonimizziamo le categorie richieste dai server ProntoExpat entro 30 giorni.\n• La diagnostica crash in Sentry può restare sui server Sentry per un periodo limitato secondo la loro policy di conservazione. Puoi disattivare i report crash futuri in Profilo → Privacy nell'app.\n• L'analytics PostHog, se attivato, è soggetto alla conservazione PostHog; richiediamo la cancellazione a PostHog quando possibile.\n• L'eliminazione completa dell'account segue regole diverse (anonimizzazione immediata sui nostri server, eventuale tombstone antifrode di 90 giorni, dati locali app cancellati). Vedi la pagina Elimina account.",
   "dataRequestPrivacyLinkBefore": "I dettagli completi sono nella nostra",
-  "dataRequestPrivacyLinkAfter": "(sezioni 2, 3, 7 e 8)."
+  "dataRequestPrivacyLinkAfter": "(sezioni 2, 3, 7 e 8).",
+  "landingPlayAttribution": "Google Play e il logo Google Play sono marchi di Google LLC.",
+  "deletionGooglePermissionsLink": "autorizzazioni dell'account Google",
+  "deletionGoogleBodyEnd": "se vuoi."
 }

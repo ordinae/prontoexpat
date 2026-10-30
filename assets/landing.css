@@ -12,6 +12,7 @@ body.is-landing {
 
 /* Full-bleed hero */
 .landing-hero {
+  --landing-play-badge-h: clamp(72px, 12vw, 96px);
   position: relative;
   width: 100vw;
   max-width: 100vw;
@@ -127,6 +128,21 @@ body.is-landing {
   margin: 0 auto;
   width: fit-content;
   max-width: 100%;
+  overflow: hidden;
+  /* Official PNG includes ~41px transparent inset; crop for even hero rhythm */
+  height: calc(var(--landing-play-badge-h) * 168 / 250);
+}
+
+.landing-play-badge img {
+  display: block;
+  height: clamp(72px, 12vw, 96px);
+  width: auto;
+  max-width: min(100%, 26rem);
+}
+
+.landing-hero .landing-play-badge img {
+  height: var(--landing-play-badge-h);
+  margin-top: calc(var(--landing-play-badge-h) * -41 / 250);
 }
 
 .landing-play-badge:hover {
@@ -136,13 +152,6 @@ body.is-landing {
 .landing-play-badge:focus-visible {
   outline: 2px solid #ffffff;
   outline-offset: 3px;
-}
-
-.landing-play-badge img {
-  display: block;
-  height: clamp(72px, 12vw, 96px);
-  width: auto;
-  max-width: min(100%, 26rem);
 }
 
 .landing-hero .landing-pill-row {
@@ -197,6 +206,23 @@ body.is-landing {
 .landing-cta.is-muted:hover {
   background: rgba(255, 255, 255, 0.22);
   color: #ffffff;
+}
+
+/* Narrow viewports — content-sized hero, equal vertical inset */
+@media (max-width: 899px) {
+  .landing-hero {
+    min-height: 0;
+  }
+
+  .landing-hero__content {
+    align-items: stretch;
+    padding-block: 1.375rem;
+    padding-inline: 1.25rem;
+  }
+
+  .landing-hero__inner .lead {
+    margin-bottom: 1.25rem;
+  }
 }
 
 @media (min-width: 900px) {

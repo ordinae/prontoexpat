@@ -89,5 +89,6 @@
   "dataRequestRetentionHeading": "الاحتفاظ بعد طلب حذف جزئي",
   "dataRequestRetentionBody": "• بعد التحقق من هويتك، نحذف الفئات المطلوبة أو نجعلها مجهولة على خوادم ProntoExpat خلال 30 يومًا.\n• قد يبقى تشخيص الأعطال في Sentry على خوادم Sentry لفترة محدودة وفق سياستهم. يمكنك إيقاف تقارير الأعطال المستقبلية من الملف الشخصي → الخصوصية في التطبيق.\n• تحليلات PostHog، إن فعّلتها، تخضع لاحتفاظ PostHog؛ نطلب الحذف من PostHog حيث أمكن.\n• حذف الحساب الكامل يتبع قواعد مختلفة (إخفاء هوية فوري على خوادمنا، سجل tombstone لمكافحة الاحتيال لمدة 90 يومًا اختياريًا، مسح البيانات المحلية للتطبيق). راجع صفحة حذف الحساب.",
   "dataRequestPrivacyLinkBefore": "التفاصيل الكاملة في",
-  "dataRequestPrivacyLinkAfter": "(الأقسام 2 و3 و7 و8)."
+  "dataRequestPrivacyLinkAfter": "(الأقسام 2 و3 و7 و8).",
+  "landingPlayAttribution": "Google Play وشعار Google Play هما علامتان تجاريتان لـ Google LLC."
 }

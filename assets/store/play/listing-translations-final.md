@@ -13,11 +13,11 @@ Single file for Play Console. Default **en-US** is the first locale block below;
 |------|------|
 | `icon-512.png` | High-res icon for Play, 512×512 (from `landing-page/assets/legacy/ios-light.png`, white; not the zoomed launcher) |
 | `icon-512-adaptive.png` | Same size, from legacy `adaptive-icon.png` (reference only; upload `icon-512.png` to Play) |
-| `feature-graphic.png` | Feature graphic, 1024×500, gradient only (default) |
-| `feature-graphic-photo.png` | Optional: Italian photo on the right under blue wash |
-| `phone-screenshot-*.png` | Phone screenshots (device captures; upscale for Play if needed) |
+| `feature-graphic.png` | Feature graphic, 1024×500 (hand-maintained) |
+| `feature-graphic-photo.png` | Photo hero variant for landing + optional Play upload |
+| `playstore_assets/*.png` | Phone screenshots for Play listing + landing gallery |
 
-Regenerate launcher PNGs: `npm run generate:app-icons`. Then SVG-based Play assets: `npm run generate:store-assets` (never touches `phone-screenshot-*.png`). SVG mocks only in `placeholders/` via `npm run generate:store-assets -- --placeholder-screenshots`. Guard: `npm run test:device-screenshots`.
+Regenerate launcher PNGs: `npm run generate:app-icons`. Play listing icons only: `npm run generate:store-assets`. Guard: `npm run test:device-screenshots`. See [`../README.md`](../README.md).
 
 ## Category suggestions
 

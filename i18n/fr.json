@@ -61,7 +61,7 @@
   "deletionPartialAfterLink": ".",
   "deletionRetentionHeading": "Ce qui se passe lors de la suppression du compte",
   "deletionGoogleHeading": "Connexion Google",
-  "deletionGoogleBody": "Si vous vous connectez avec Google, supprimer votre compte ProntoExpat ne retire pas l'accès de l'application dans votre compte Google. Vous pouvez révoquer l'accès dans les autorisations du compte Google.",
+  "deletionGoogleBody": "Si vous vous connectez avec Google, supprimer votre compte ProntoExpat ne retire pas l'accès de l'application dans votre compte Google. Vous pouvez révoquer l'accès dans les",
   "deletionContactHeading": "Contact",
   "deletionContactBody": "Confidentialité : ordinaedev@gmail.com · +39 375 686 1669",
   "privacyDataRequestPageLink": "Page des demandes de suppression de données (étapes, données supprimées ou conservées, conservation)",
@@ -87,5 +87,8 @@
   "dataRequestRetentionHeading": "Conservation après une demande de suppression partielle",
   "dataRequestRetentionBody": "• Après vérification de votre identité, nous supprimons ou anonymisons les catégories demandées sur les serveurs ProntoExpat sous 30 jours.\n• Les diagnostics de crash dans Sentry peuvent rester sur les serveurs Sentry pendant une durée limitée selon leur politique de conservation. Vous pouvez désactiver les rapports de crash futurs dans Profil → Confidentialité dans l'app.\n• L'analytique PostHog, si vous l'aviez activée, est soumise à la conservation PostHog ; nous demandons la suppression à PostHog lorsque c'est possible.\n• La suppression complète du compte suit d'autres règles (anonymisation immédiate sur nos serveurs, éventuel enregistrement tombstone antifraude de 90 jours, données locales de l'app effacées). Consultez la page Supprimer le compte.",
   "dataRequestPrivacyLinkBefore": "Les détails complets figurent dans notre",
-  "dataRequestPrivacyLinkAfter": "(sections 2, 3, 7 et 8)."
+  "dataRequestPrivacyLinkAfter": "(sections 2, 3, 7 et 8).",
+  "landingPlayAttribution": "Google Play et le logo Google Play sont des marques de Google LLC.",
+  "deletionGooglePermissionsLink": "autorisations du compte Google",
+  "deletionGoogleBodyEnd": "si vous le souhaitez."
 }

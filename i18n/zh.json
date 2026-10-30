@@ -61,7 +61,7 @@
   "deletionPartialAfterLink": "。",
   "deletionRetentionHeading": "删除账户后会发生什么",
   "deletionGoogleHeading": "Google 登录",
-  "deletionGoogleBody": "若你使用 Google 登录，删除 ProntoExpat 账户不会自动移除 Google 账户中的应用访问权限。你可在 Google 账户权限中撤销访问。",
+  "deletionGoogleBody": "若你使用 Google 登录，删除 ProntoExpat 账户不会自动移除 Google 账户中的应用访问权限。你可在",
   "deletionContactHeading": "联系",
   "deletionContactBody": "隐私联系：ordinaedev@gmail.com · +39 375 686 1669",
   "privacyDataRequestPageLink": "数据删除申请页面（步骤、删除或保留的数据类型、保留期限）",
@@ -87,5 +87,8 @@
   "dataRequestRetentionHeading": "部分删除申请后的保留",
   "dataRequestRetentionBody": "• 身份核实后，我们将在 30 天内在 ProntoExpat 服务器上删除或匿名化所请求的类别。\n• Sentry 中的崩溃诊断可能按其保留政策在 Sentry 服务器上保留有限时间。可在应用 个人资料 → 隐私 中随时关闭未来的崩溃报告。\n• 若已开启 PostHog 分析，受 PostHog 保留规则约束；我们会在可能时向 PostHog 请求删除。\n• 完整账户删除适用不同规则（服务器立即匿名化、可选 90 天防欺诈 tombstone、清除本地应用数据）。请见删除账户页面。",
   "dataRequestPrivacyLinkBefore": "完整说明见我们的",
-  "dataRequestPrivacyLinkAfter": "（第 2、3、7、8 节）。"
+  "dataRequestPrivacyLinkAfter": "（第 2、3、7、8 节）。",
+  "landingPlayAttribution": "Google Play 和 Google Play 徽标是 Google LLC 的商标。",
+  "deletionGooglePermissionsLink": "Google 账户权限",
+  "deletionGoogleBodyEnd": "中撤销访问。"
 }

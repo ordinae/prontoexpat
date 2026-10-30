@@ -61,7 +61,7 @@
   "deletionPartialAfterLink": ".",
   "deletionRetentionHeading": "Qué ocurre al eliminar tu cuenta",
   "deletionGoogleHeading": "Inicio de sesión con Google",
-  "deletionGoogleBody": "Si entras con Google, eliminar tu cuenta de ProntoExpat no quita el acceso de la app en tu cuenta de Google. Puedes revocar el acceso en los permisos de la cuenta de Google.",
+  "deletionGoogleBody": "Si entras con Google, eliminar tu cuenta de ProntoExpat no quita el acceso de la app en tu cuenta de Google. Puedes revocar el acceso en los",
   "deletionContactHeading": "Contacto",
   "deletionContactBody": "Privacidad: ordinaedev@gmail.com · +39 375 686 1669",
   "privacyDataRequestPageLink": "Página de solicitudes de eliminación de datos (pasos, qué borramos o conservamos, conservación)",
@@ -87,5 +87,8 @@
   "dataRequestRetentionHeading": "Conservación tras una solicitud parcial de eliminación",
   "dataRequestRetentionBody": "• Tras verificar tu identidad, eliminamos o anonimizamos las categorías solicitadas en los servidores de ProntoExpat en un plazo de 30 días.\n• Los diagnósticos de fallos en Sentry pueden permanecer en los servidores de Sentry un tiempo limitado según su política de conservación. Puedes desactivar informes de fallos futuros en Perfil → Privacidad en la app.\n• La analítica PostHog, si la activaste, está sujeta a la conservación de PostHog; pedimos eliminación a PostHog cuando podemos.\n• La eliminación completa de la cuenta sigue otras reglas (anonimización inmediata en nuestros servidores, posible registro tombstone antifraude de 90 días, datos locales de la app borrados). Consulta la página Eliminar cuenta.",
   "dataRequestPrivacyLinkBefore": "Los detalles completos están en nuestra",
-  "dataRequestPrivacyLinkAfter": "(secciones 2, 3, 7 y 8)."
+  "dataRequestPrivacyLinkAfter": "(secciones 2, 3, 7 y 8).",
+  "landingPlayAttribution": "Google Play y el logotipo de Google Play son marcas comerciales de Google LLC.",
+  "deletionGooglePermissionsLink": "permisos de la cuenta de Google",
+  "deletionGoogleBodyEnd": "si lo deseas."
 }

@@ -61,7 +61,7 @@
   "deletionPartialAfterLink": ".",
   "deletionRetentionHeading": "Що відбувається після видалення облікового запису",
   "deletionGoogleHeading": "Вхід через Google",
-  "deletionGoogleBody": "Якщо ви входите через Google, видалення облікового запису ProntoExpat не прибирає доступ додатка в обліковому записі Google. Ви можете скасувати доступ у дозволах Google.",
+  "deletionGoogleBody": "Якщо ви входите через Google, видалення облікового запису ProntoExpat не прибирає доступ додатка в обліковому записі Google. Ви можете скасувати доступ у",
   "deletionContactHeading": "Контакт",
   "deletionContactBody": "Конфіденційність: ordinaedev@gmail.com · +39 375 686 1669",
   "privacyDataRequestPageLink": "Сторінка запитів на видалення даних (кроки, що видаляємо чи зберігаємо, терміни зберігання)",
@@ -87,5 +87,8 @@
   "dataRequestRetentionHeading": "Зберігання після часткового запиту на видалення",
   "dataRequestRetentionBody": "• Після перевірки особи ми видаляємо або анонімізуємо запитані категорії на серверах ProntoExpat протягом 30 днів.\n• Діагностика збоїв у Sentry може залишатися на серверах Sentry обмежений час згідно з їхньою політикою. Вимкнути майбутні звіти про збої можна в Профіль → Конфіденційність у застосунку.\n• Аналітика PostHog, якщо була ввімкнена, підпадає під зберігання PostHog; ми запитуємо видалення в PostHog, коли це можливо.\n• Повне видалення облікового запису має інші правила (негайна анонімізація на наших серверах, необов’язковий 90-денний tombstone проти шахрайства, очищення локальних даних застосунку). Див. сторінку Видалити обліковий запис.",
   "dataRequestPrivacyLinkBefore": "Повні відомості в нашій",
-  "dataRequestPrivacyLinkAfter": "(розділи 2, 3, 7 і 8)."
+  "dataRequestPrivacyLinkAfter": "(розділи 2, 3, 7 і 8).",
+  "landingPlayAttribution": "Google Play і логотип Google Play є торговими марками Google LLC.",
+  "deletionGooglePermissionsLink": "дозволах Google",
+  "deletionGoogleBodyEnd": "за бажанням."
 }

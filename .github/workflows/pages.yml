@@ -27,6 +27,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
+          # Pages otherwise drops .well-known and .nojekyll.
+          include-hidden-files: true
 
       - id: deployment
         uses: actions/deploy-pages@v4

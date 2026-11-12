@@ -1,6 +1,6 @@
 # Google Play listing (copy + translations)
 
-Single file for Play Console. Default **en-US** is the first locale block below; nine more follow for **Import translations (AI)**.
+Single file for Play Console (Android). Default **en-US** is the first locale block below; nine more follow for **Import translations (AI)**. Sign-in bullets list **email and Google only** (no Apple on Android). Founder launch: do not mention Premium or paid tiers in listing copy.
 
 ## Play Console
 
@@ -42,9 +42,9 @@ What you get
 • Tasks: Track bureaucracy milestones and always know what to do next.
 • Reminders: An in-app notification inbox plus optional push alerts for administrative deadlines (informational only).
 • Resources: Guides and articles with links to trusted sources.
-• Saved: Bookmark guides and articles to come back to later.
+• Favorites: Save guides and articles to find them again later.
 • Languages: App available in Arabic, Chinese, English, French, German, Hindi, Italian, Portuguese, Spanish and Ukrainian.
-• Account: Sign in with email, Google or Apple. Your progress stays with your account.
+• Account: Sign in with email or Google. Your progress stays with your account.
 
 ProntoExpat is a checklist and guidance tool, not an AI legal chat.
 
@@ -78,9 +78,9 @@ Cosa trovi
 • Attività: segui le tappe burocratiche e scopri sempre cosa fare dopo.
 • Promemoria: inbox delle notifiche in app e notifiche push facoltative per le scadenze amministrative (solo a scopo informativo).
 • Risorse: guide e articoli con link a fonti affidabili.
-• Salvati: aggiungi guide e articoli ai preferiti per rileggerli quando vuoi.
+• Preferiti: salva guide e articoli per rileggerle quando vuoi.
 • Lingue: app disponibile in arabo, cinese, inglese, francese, tedesco, hindi, italiano, portoghese, spagnolo e ucraino.
-• Account: accedi con email, Google o Apple. I tuoi progressi restano salvati nel tuo account.
+• Account: accedi con email o Google. I tuoi progressi restano salvati nel tuo account.
 
 ProntoExpat è uno strumento di checklist e orientamento, non una chat legale basata sull’IA.
 
@@ -114,9 +114,9 @@ Qué incluye
 • Tareas: sigue los hitos burocráticos y consulta siempre qué toca hacer después.
 • Recordatorios: bandeja de avisos en la app y notificaciones push opcionales para plazos administrativos (solo informativas).
 • Recursos: guías y artículos con enlaces a fuentes fiables.
-• Guardados: guarda guías y artículos para consultarlos más tarde.
+• Favoritos: guarda guías y artículos para consultarlas cuando quieras.
 • Idiomas: app disponible en árabe, chino, inglés, francés, alemán, hindi, italiano, portugués, español y ucraniano.
-• Cuenta: inicia sesión con email, Google o Apple. Tu progreso se guarda en tu cuenta.
+• Cuenta: inicia sesión con email o Google. Tu progreso se guarda en tu cuenta.
 
 ProntoExpat es una herramienta de listas de tareas y orientación, no un chat legal con IA.
 
@@ -150,9 +150,9 @@ Ce que vous obtenez
 • Tâches : suivez les étapes administratives et sachez toujours quoi faire ensuite.
 • Rappels : boîte de notifications dans l’app et alertes push facultatives pour les échéances administratives (à titre informatif uniquement).
 • Ressources : guides et articles avec liens vers des sources fiables.
-• Enregistrés : gardez guides et articles de côté pour les retrouver plus tard.
+• Favoris : enregistrez guides et articles pour les retrouver quand vous voulez.
 • Langues : application disponible en arabe, chinois, anglais, français, allemand, hindi, italien, portugais, espagnol et ukrainien.
-• Compte : connexion par e-mail, Google ou Apple. Votre progression reste liée à votre compte.
+• Compte : connexion par e-mail ou Google. Votre progression reste liée à votre compte.
 
 ProntoExpat est un outil de checklists et d’orientation, pas un chat juridique par IA.
 
@@ -184,11 +184,11 @@ Das bietet die App
 
 • Triage und Ihr Weg: Beantworten Sie einen kurzen Fragebogen (EU oder Nicht-EU, Familie, Wohnen u. a.) und erhalten Sie eine passende Checkliste mit priorisierten nächsten Schritten. Fügen Sie Ihr Comune hinzu, um mehr lokalen Kontext zu erhalten.
 • Aufgaben: Verfolgen Sie bürokratische Meilensteine und wissen Sie immer, was als Nächstes ansteht.
-• Erinnerungen: Benachrichtigungs-Postfach in der App plus optionale Push-Hinweise zu Fristen (nur zur Information).
+• Erinnerungen: Benachrichtigungen in der App plus optionale Push-Hinweise zu Fristen (nur zur Information).
 • Ressourcen: Leitfäden und Artikel mit Links zu verlässlichen Quellen.
-• Gespeichert: Merken Sie sich Leitfäden und Artikel zum späteren Lesen.
+• Favoriten: Leitfäden und Artikel speichern und später weiterlesen.
 • Sprachen: App verfügbar auf Arabisch, Chinesisch, Englisch, Französisch, Deutsch, Hindi, Italienisch, Portugiesisch, Spanisch und Ukrainisch.
-• Konto: Anmeldung per E-Mail, Google oder Apple. Ihr Fortschritt bleibt in Ihrem Konto erhalten.
+• Konto: Anmeldung per E-Mail oder Google. Ihr Fortschritt bleibt in Ihrem Konto erhalten.
 
 ProntoExpat ist ein Checklisten- und Orientierungstool, kein KI-Rechtschat.
 
@@ -222,9 +222,9 @@ O que você encontra
 • Tarefas: acompanhe os marcos burocráticos e saiba sempre o que fazer a seguir.
 • Lembretes: caixa de notificações no app e alertas push opcionais para prazos administrativos (apenas informativos).
 • Recursos: guias e artigos com links para fontes confiáveis.
-• Salvos: guarde guias e artigos para ler depois.
+• Favoritos: salve guias e artigos para acessar quando quiser.
 • Idiomas: app disponível em árabe, chinês, inglês, francês, alemão, hindi, italiano, português, espanhol e ucraniano.
-• Conta: entre com e-mail, Google ou Apple. Seu progresso fica salvo na sua conta.
+• Conta: entre com e-mail ou Google. Seu progresso fica salvo na sua conta.
 
 O ProntoExpat é uma ferramenta de checklist e orientação, não um chat jurídico com IA.
 
@@ -258,9 +258,9 @@ ordinaedev@gmail.com
 • المهام: تابع مراحل الإجراءات الإدارية واعرف دائمًا الخطوة التالية.
 • التذكيرات: صندوق إشعارات داخل التطبيق مع تنبيهات فورية اختيارية للمواعيد النهائية الإدارية (لأغراض إعلامية فقط).
 • الموارد: أدلة ومقالات مع روابط لمصادر موثوقة.
-• المحفوظات: احفظ الأدلة والمقالات للرجوع إليها لاحقًا.
+• المفضلة: احفظ الأدلة والمقالات وارجع إليها في أي وقت.
 • اللغات: التطبيق متاح بالعربية والصينية والإنجليزية والفرنسية والألمانية والهندية والإيطالية والبرتغالية والإسبانية والأوكرانية.
-• الحساب: سجّل الدخول بالبريد الإلكتروني أو Google أو Apple. يبقى تقدمك محفوظًا في حسابك.
+• الحساب: سجّل الدخول بالبريد الإلكتروني أو Google. يبقى تقدمك محفوظًا في حسابك.
 
 ProntoExpat أداة للقوائم والإرشاد، وليس محادثة قانونية بالذكاء الاصطناعي.
 
@@ -294,9 +294,9 @@ ordinaedev@gmail.com
 • 任务：跟踪办事进度，随时了解下一步该做什么。
 • 提醒：应用内通知收件箱，另有可选的行政截止日期推送提醒（仅供参考）。
 • 资源：指南与文章，附可信来源链接。
-• 收藏：收藏指南与文章，方便日后查看。
+• 收藏：将指南与文章加入收藏，随时回看。
 • 语言：应用界面支持阿拉伯语、中文、英语、法语、德语、印地语、意大利语、葡萄牙语、西班牙语和乌克兰语。
-• 账户：可使用电子邮件、Google 或 Apple 登录，进度保存在你的账户中。
+• 账户：可使用电子邮件或 Google 登录，进度保存在你的账户中。
 
 ProntoExpat 是清单与指引工具，不是 AI 法律咨询聊天。
 
@@ -330,9 +330,9 @@ ordinaedev@gmail.com
 • कार्य: प्रशासनिक पड़ावों को ट्रैक करें और हमेशा जानें कि आगे क्या करना है।
 • रिमाइंडर: ऐप में नोटिफ़िकेशन इनबॉक्स, साथ ही प्रशासनिक समय-सीमाओं के लिए वैकल्पिक पुश अलर्ट (केवल जानकारी के लिए)।
 • संसाधन: भरोसेमंद स्रोतों के लिंक वाले गाइड और लेख।
-• सेव किए गए: गाइड और लेख बुकमार्क करें और बाद में दोबारा पढ़ें।
+• पसंदीदा: गाइड और लेख सहेजें और बाद में आसानी से पढ़ें।
 • भाषाएँ: ऐप अरबी, चीनी, अंग्रेज़ी, फ़्रेंच, जर्मन, हिंदी, इतालवी, पुर्तगाली, स्पेनिश और यूक्रेनी भाषा में उपलब्ध है।
-• खाता: ईमेल, Google या Apple से साइन इन करें। आपकी प्रगति आपके खाते में सुरक्षित रहती है।
+• खाता: ईमेल या Google से साइन इन करें। आपकी प्रगति आपके खाते में सुरक्षित रहती है।
 
 ProntoExpat चेकलिस्ट और मार्गदर्शन टूल है, AI कानूनी चैट नहीं।
 
@@ -366,9 +366,9 @@ ordinaedev@gmail.com
 • Завдання: відстежуйте етапи оформлення документів і завжди знайте, що робити далі.
 • Нагадування: скринька сповіщень у застосунку та необов’язкові push-сповіщення про адміністративні строки (лише для інформації).
 • Ресурси: гіди й статті з посиланнями на надійні джерела.
-• Збережене: додавайте гіди й статті до закладок, щоб повернутися до них пізніше.
+• Закладки: зберігайте гіди й статті та повертайтеся до них, коли зручно.
 • Мови: застосунок доступний арабською, китайською, англійською, французькою, німецькою, гінді, італійською, португальською, іспанською та українською.
-• Обліковий запис: вхід через email, Google або Apple. Ваш прогрес зберігається в обліковому записі.
+• Обліковий запис: вхід через email або Google. Ваш прогрес зберігається в обліковому записі.
 
 ProntoExpat є інструментом чеклістів і орієнтації, а не юридичним чатом зі штучним інтелектом.
 

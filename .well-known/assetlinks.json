@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.prontoexpat.app",
+      "sha256_cert_fingerprints": [
+        "77:C3:BB:9C:21:60:CA:4D:E5:83:46:DB:A1:17:B7:A8:B7:A1:8A:E0:9C:A2:4C:BD:25:6F:D1:7F:9F:14:67:51"
+      ]
+    }
+  }
+]

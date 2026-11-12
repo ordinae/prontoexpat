@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex" />
+    <title>Open ProntoExpat</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #0b1326;
+        color: #ffffff;
+        font-family: system-ui, sans-serif;
+      }
+      main {
+        max-width: 28rem;
+        padding: 2rem;
+        text-align: center;
+      }
+      p {
+        line-height: 1.5;
+      }
+      a {
+        display: inline-block;
+        margin-top: 1.5rem;
+        background: #005eb8;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 0.9rem 1.4rem;
+        border-radius: 999px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Open ProntoExpat</h1>
+      <p id="message">If the app did not open, use the button on this phone.</p>
+      <p><a id="open-app" hidden>Open the app</a></p>
+    </main>
+    <script>
+      (function () {
+        var link = document.getElementById("open-app");
+        var message = document.getElementById("message");
+        var hash = window.location.hash.replace(/^#/, "");
+        var params = new URLSearchParams(hash);
+        var token = params.get("t") || "";
+        var type = params.get("type") || "";
+        var tokenOk = /^pkce_[0-9a-f]{20,128}$/i.test(token);
+        var typeOk = type === "recovery" || type === "signup" || type === "magiclink";
+        var extra = false;
+        params.forEach(function (_value, key) {
+          if (key !== "t" && key !== "type") extra = true;
+        });
+        if (!tokenOk || !typeOk || extra) {
+          message.textContent =
+            "This link is invalid or already used. Request a new email from the ProntoExpat app.";
+          return;
+        }
+        link.href =
+          "prontoexpat://auth/confirm#t=" +
+          encodeURIComponent(token) +
+          "&type=" +
+          encodeURIComponent(type);
+        link.hidden = false;
+      })();
+    </script>
+  </body>
+</html>

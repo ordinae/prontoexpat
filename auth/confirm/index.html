@@ -34,18 +34,31 @@
         border-radius: 999px;
         font-weight: 600;
       }
+      a[hidden] {
+        display: none !important;
+      }
+      #retry-hint {
+        margin-top: 0.75rem;
+        font-size: 0.95rem;
+        opacity: 0.85;
+      }
     </style>
   </head>
   <body>
     <main>
       <h1>Open ProntoExpat</h1>
       <p id="message">If the app did not open, use the button on this phone.</p>
+      <p id="retry-hint" hidden>
+        Open ProntoExpat and run the same step again (sign in, sign up, or forgot
+        password) to get a new email.
+      </p>
       <p><a id="open-app" hidden>Open the app</a></p>
     </main>
     <script>
       (function () {
         var link = document.getElementById("open-app");
         var message = document.getElementById("message");
+        var retryHint = document.getElementById("retry-hint");
         var hash = window.location.hash.replace(/^#/, "");
         var params = new URLSearchParams(hash);
         var token = params.get("t") || "";
@@ -59,6 +72,8 @@
         if (!tokenOk || !typeOk || extra) {
           message.textContent =
             "This link is invalid or already used. Request a new email from the ProntoExpat app.";
+          retryHint.hidden = false;
+          link.hidden = true;
           return;
         }
         link.href =

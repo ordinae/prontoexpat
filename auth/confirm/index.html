@@ -54,7 +54,8 @@
       </p>
       <p><a id="open-app" hidden>Open the app</a></p>
     </main>
-    <script>
+  <script src="pe-auth-config.js"></script>
+  <script>
       (function () {
         var link = document.getElementById("open-app");
         var message = document.getElementById("message");
@@ -69,19 +70,85 @@
         params.forEach(function (_value, key) {
           if (key !== "t" && key !== "type") extra = true;
         });
-        if (!tokenOk || !typeOk || extra) {
+
+        function showInvalid() {
           message.textContent =
             "This link is invalid or already used. Request a new email from the ProntoExpat app.";
           retryHint.hidden = false;
           link.hidden = true;
+        }
+
+        function showFallback(tokenValue, typeValue, callbackHref) {
+          message.textContent =
+            "If the app did not open, use the button on this phone.";
+          retryHint.hidden = true;
+          link.href =
+            callbackHref ||
+            "prontoexpat://auth/confirm#t=" +
+              encodeURIComponent(tokenValue) +
+              "&type=" +
+              encodeURIComponent(typeValue);
+          link.hidden = false;
+        }
+
+        // Phones keep the fragment handoff; desktop asks GoTrue via our edge probe.
+        function isMobileHandoff() {
+          var ua = navigator.userAgent || "";
+          return /Android/i.test(ua) || /iPhone|iPad|iPod/i.test(ua);
+        }
+
+        if (!tokenOk || !typeOk || extra) {
+          showInvalid();
           return;
         }
-        link.href =
-          "prontoexpat://auth/confirm#t=" +
-          encodeURIComponent(token) +
-          "&type=" +
-          encodeURIComponent(type);
-        link.hidden = false;
+        if (isMobileHandoff()) {
+          showFallback(token, type);
+          return;
+        }
+
+        var cfg = window.__PE_AUTH_CONFIRM;
+        if (!cfg || !cfg.statusUrl) {
+          showFallback(token, type);
+          return;
+        }
+
+        message.textContent = "Checking link…";
+        link.hidden = true;
+        var headers = { Accept: "application/json" };
+        if (cfg.publishableKey) {
+          headers.apikey = cfg.publishableKey;
+          headers.Authorization = "Bearer " + cfg.publishableKey;
+        }
+
+        fetch(
+          cfg.statusUrl +
+            "?token=" +
+            encodeURIComponent(token) +
+            "&type=" +
+            encodeURIComponent(type),
+          { headers: headers }
+        )
+          .then(function (res) {
+            return res.ok ? res.json() : null;
+          })
+          .then(function (body) {
+            if (!body) {
+              showFallback(token, type);
+              return;
+            }
+            if (body.status === "invalid") {
+              showInvalid();
+              return;
+            }
+            if (body.status === "ready" && body.callback) {
+              showFallback(token, type, body.callback);
+              return;
+            }
+            showFallback(token, type);
+          })
+          .catch(function () {
+            showFallback(token, type);
+          });
       })();
     </script>
   </body>
